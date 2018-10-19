@@ -2,4 +2,4 @@
 Personal website which is coming soon.
 Stay tuned!!!
 
-Check it out [here](dgr8akki.github.io)
+Check it out [here](https://dgr8akki.github.io)
