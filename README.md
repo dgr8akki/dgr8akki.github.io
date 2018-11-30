@@ -1,3 +1,3 @@
 # Personal Portfolio
 
-Check it live on [dgr8akki.github.io](https://dgr8akki.github.io)
+Check it live at [dgr8akki.github.io](https://dgr8akki.github.io)
