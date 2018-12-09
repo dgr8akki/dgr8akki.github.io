@@ -7,6 +7,12 @@ body {
   font-family: Calibri;
 }
 
+.heading {
+  border-bottom: 1px solid;
+  padding-left: 9px;
+  margin-bottom: 5px;
+}
+
 .font-head {
   font-size: 22px;
   font-weight: bold;
