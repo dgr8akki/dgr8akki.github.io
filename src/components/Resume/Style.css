@@ -1,45 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-body {
-  margin-top: 0px;
-  margin-left: 0px;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  font-family: Calibri;
-}
-
 .heading {
   border-bottom: 1px solid;
   padding-left: 9px;
@@ -73,32 +31,32 @@ body {
 #page_1 #p1dimg1 {position:absolute;top:65px;left:0px;z-index:-1;width:686px;height:829px;}
 #page_1 #p1dimg1 #p1img1 {width:686px;height:829px;}
 #page_1 #tx1 {position:absolute;top:0px;left:543px;width:138px;height:33px;}
-.ft0{font: 12px 'Calibri';line-height: 17px;}
-.ft1{font: 11px 'Calibri';line-height: 16px;}
-.ft2{font: 13px 'Calibri';line-height: 15px;}
-.ft3{font: 14px 'Calibri';line-height: 17px;}
-.ft4{font: bold 15px 'Calibri';line-height: 18px;}
-.ft5{font: bold 12px 'Calibri';line-height: 14px;}
-.ft6{font: bold 21px 'Calibri';line-height: 26px;}
-.ft7{font: bold 14px 'Calibri';line-height: 17px;}
+.ft0{font: 12px'Calibri', 'Open Sans', sans-serif;line-height: 17px;}
+.ft1{font: 11px'Calibri', 'Open Sans', sans-serif;line-height: 16px;}
+.ft2{font: 13px'Calibri', 'Open Sans', sans-serif;line-height: 15px;}
+.ft3{font: 14px'Calibri', 'Open Sans', sans-serif;line-height: 17px;}
+.ft4{font: bold 15px'Calibri', 'Open Sans', sans-serif;line-height: 18px;}
+.ft5{font: bold 12px'Calibri', 'Open Sans', sans-serif;line-height: 14px;}
+.ft6{font: bold 21px'Calibri', 'Open Sans', sans-serif;line-height: 26px;}
+.ft7{font: bold 14px'Calibri', 'Open Sans', sans-serif;line-height: 17px;}
 .ft8{font: 9px 'Arial';color: #000066;line-height: 12px;}
-.ft9{font: 15px 'Calibri';margin-left: 9px;line-height: 18px;}
-.ft10{font: 15px 'Calibri';line-height: 18px;}
-.ft11{font: 15px 'Calibri';text-decoration: underline;color: #0563c1;line-height: 18px;}
-.ft12{font: 15px 'Calibri';color: #0563c1;line-height: 18px;}
+.ft9{font: 15px'Calibri', 'Open Sans', sans-serif;margin-left: 9px;line-height: 18px;}
+.ft10{font: 15px'Calibri', 'Open Sans', sans-serif;line-height: 18px;}
+.ft11{font: 15px'Calibri', 'Open Sans', sans-serif;text-decoration: underline;color: #0563c1;line-height: 18px;}
+.ft12{font: 15px'Calibri', 'Open Sans', sans-serif;color: #0563c1;line-height: 18px;}
 .ft13{font: 11px 'MS PGothic';color: #000066;line-height: 11px;}
-.ft14{font: 14px 'Calibri';margin-left: 13px;line-height: 16px;}
-.ft15{font: 14px 'Calibri';line-height: 16px;}
+.ft14{font: 14px'Calibri', 'Open Sans', sans-serif;margin-left: 13px;line-height: 16px;}
+.ft15{font: 14px'Calibri', 'Open Sans', sans-serif;line-height: 16px;}
 .ft16{font: 14px 'Arial';color: #000066;line-height: 16px;}
-.ft17{font: 14px 'Calibri';margin-left: 18px;line-height: 17px;}
-.ft18{font: 14px 'Calibri';margin-left: 18px;line-height: 16px;}
-.ft19{font: bold 14px 'Calibri';line-height: 16px;}
-.ft20{font: 14px 'Calibri';text-decoration: underline;color: #0563c1;line-height: 16px;}
-.ft21{font: 14px 'Calibri';color: #0563c1;line-height: 16px;}
-.ft22{font: bold 15px 'Calibri';line-height: 16px;}
-.ft23{font: 10px 'Calibri';line-height: 13px;position: relative; bottom: 4px;}
-.ft24{font: 15px 'Calibri';margin-left: 9px;line-height: 17px;}
-.ft25{font: 15px 'Calibri';line-height: 17px;}
+.ft17{font: 14px'Calibri', 'Open Sans', sans-serif;margin-left: 18px;line-height: 17px;}
+.ft18{font: 14px'Calibri', 'Open Sans', sans-serif;margin-left: 18px;line-height: 16px;}
+.ft19{font: bold 14px'Calibri', 'Open Sans', sans-serif;line-height: 16px;}
+.ft20{font: 14px'Calibri', 'Open Sans', sans-serif;text-decoration: underline;color: #0563c1;line-height: 16px;}
+.ft21{font: 14px'Calibri', 'Open Sans', sans-serif;color: #0563c1;line-height: 16px;}
+.ft22{font: bold 15px'Calibri', 'Open Sans', sans-serif;line-height: 16px;}
+.ft23{font: 10px'Calibri', 'Open Sans', sans-serif;line-height: 13px;position: relative; bottom: 4px;}
+.ft24{font: 15px'Calibri', 'Open Sans', sans-serif;margin-left: 9px;line-height: 17px;}
+.ft25{font: 15px'Calibri', 'Open Sans', sans-serif;line-height: 17px;}
 .p0{text-align: left;margin-top: 0px;margin-bottom: 0px;}
 .p1{text-align: left;margin-top: 1px;margin-bottom: 0px;}
 .p2{text-align: left;margin-top: 16px;margin-bottom: 0px;}
@@ -135,9 +93,9 @@ body {
 .tr0{height: 18px;}
 .tr1{height: 19px;}
 .tr2{height: 20px;}
-.t0{width: 671px;margin-left: 8px;font: bold 15px 'Calibri';}
-.t1{width: 671px;margin-left: 8px;margin-top: 1px;font: bold 15px 'Calibri';}
-.t2{width: 672px;margin-left: 8px;margin-top: 2px;font: bold 15px 'Calibri';}
-.t3{width: 670px;margin-left: 8px;margin-top: 1px;font: bold 15px 'Calibri';}
-.t4{width: 671px;margin-left: 8px;margin-top: 17px;font: bold 15px 'Calibri';}
-.t5{width: 686px;font: bold 15px 'Calibri';}
+.t0{width: 671px;margin-left: 8px;font: bold 15px'Calibri', 'Open Sans', sans-serif;}
+.t1{width: 671px;margin-left: 8px;margin-top: 1px;font: bold 15px'Calibri', 'Open Sans', sans-serif;}
+.t2{width: 672px;margin-left: 8px;margin-top: 2px;font: bold 15px'Calibri', 'Open Sans', sans-serif;}
+.t3{width: 670px;margin-left: 8px;margin-top: 1px;font: bold 15px'Calibri', 'Open Sans', sans-serif;}
+.t4{width: 671px;margin-left: 8px;margin-top: 17px;font: bold 15px'Calibri', 'Open Sans', sans-serif;}
+.t5{width: 686px;font: bold 15px'Calibri', 'Open Sans', sans-serif;}

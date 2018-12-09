@@ -74,7 +74,7 @@ const Resume = () => (
           <p class="p3 ft4">Software Development Engineer</p>
         </td>
         <td class="tr0 td9">
-          <p class="p3 ft4">KONY INDIA PVT. Ltd, HYDERABAD</p>
+          <p class="p3 ft4">KONY INDIA PVT. LTD. , HYDERABAD</p>
         </td>
         <td class="tr0 td10">
           <p class="p3 ft7">Aug 2017 – Now</p>
@@ -94,7 +94,7 @@ const Resume = () => (
           <p class="p3 ft4">Associate Software Engineer</p>
         </td>
         <td class="tr0 td11">
-          <p class="p3 ft4">KONY INDIA PVT. Ltd, HYDERABAD</p>
+          <p class="p3 ft4">KONY INDIA PVT. LTD. , HYDERABAD</p>
         </td>
         <td class="tr0 td12">
           <p class="p3 ft7"><span class="ft4">Aug </span>2016 – Aug 2017</p>
