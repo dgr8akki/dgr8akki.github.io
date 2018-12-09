@@ -23,7 +23,10 @@ class App extends Component {
           <p class="p2 ft5"><span class="ft4">E</span>DUCATION</p>
         </div>
         <div id="id1_1_2">
-          <p class="p0 ft6">A a k a s h P a h u j a</p>
+          <p class="p0 font-small">
+            <span class="font-head">A</span> A K A S H
+            <span class="font-head">&nbsp;&nbsp;P</span> A H U J A
+          </p>
         </div>
       </div>
       <div id="id1_2">
@@ -83,7 +86,7 @@ class App extends Component {
             </td>
           </tr>
         </table>
-        <p class="p4 ft12"><span class="ft8">•</span><span class="ft9">Worked on </span><span class="ft4">Kony Marketplace Platform </span><a href="https://marketplace.kony.com/"><span class="ft10">(</span></a><a href="https://marketplace.kony.com/"><span class="ft11">https://marketplace.kony.com</span></a><span class="ft3">).</span></p>
+        <p class="p4"><span class="ft8">•</span><span class="ft9">Worked on </span><span class="ft4">Kony Marketplace Platform </span><a href="https://marketplace.kony.com/"><span class="ft10">(</span></a><a href="https://marketplace.kony.com/"><span class="ft11">https://marketplace.kony.com</span></a><span class="ft3">).</span></p>
         <p class="p6 ft15"><span class="ft13">➢</span><span class="ft14">Roles & Responsibilities:</span></p>
         <p class="p7 ft7"><span class="ft16">▪</span><span class="ft17">Develop </span>Marketplace2.0 <span class="ft3">withoptimized performance and </span>googlepage insight score <span class="ft3">of </span>94.</p>
         <p class="p8 ft15"><span class="ft16">▪</span><span class="ft18">Also develop Private marketplace which enables the customers to view and share components only in their organizationwith highsecurity.</span></p>
@@ -103,9 +106,9 @@ class App extends Component {
             </td>
           </tr>
         </table>
-        <p class="p4 ft12"><span class="ft8">•</span><span class="ft9">Worked on </span><span class="ft4">Kony Web portals </span><a href="https://www.kony.com/"><span class="ft10">(</span></a><a href="https://www.kony.com/"><span class="ft11">https://www.kony.com</span></a><span class="ft10"> & </span><a href="https://community.kony.com/"><span class="ft11">https://community.kony.com/</span></a><span class="ft10">).</span></p>
+        <p class="p4"><span class="ft8">•</span><span class="ft9">Worked on </span><span class="ft4">Kony Web portals </span><a href="https://www.kony.com/"><span class="ft10">(</span></a><a href="https://www.kony.com/"><span class="ft11">https://www.kony.com</span></a><span class="ft10"> & </span><a href="https://community.kony.com/"><span class="ft11">https://community.kony.com/</span></a><span class="ft10">).</span></p>
         <p class="p6 ft15"><span class="ft13">➢</span><span class="ft14">Roles & Responsibilities:</span></p>
-        <p class="p7 ft21"><span class="ft16">▪</span><span class="ft18">Develop responsiveness to </span><span class="ft19">Kony Marketplace platform </span><a href="https://community.kony.com/marketplace"><span class="ft15">(</span></a><a href="https://community.kony.com/marketplace"><span class="ft20">https://community.kony.com/marketplace</span></a><span class="ft15">)</span></p>
+        <p class="p7"><span class="ft16">▪</span><span class="ft18">Develop responsiveness to </span><span class="ft19">Kony Marketplace platform </span><a href="https://community.kony.com/marketplace"><span class="ft15">(</span></a><a href="https://community.kony.com/marketplace"><span class="ft20">https://community.kony.com/marketplace</span></a><span class="ft15">)</span></p>
         <p class="p7 ft3"><span class="ft16">▪</span><span class="ft17">Develop front End of </span><span class="ft7">Kony Web portals</span></p>
         <p class="p7 ft15"><span class="ft16">▪</span><span class="ft18">Develop APIs for marketplace platform in </span><span class="ft19">Drupal </span>in <span class="ft19">PHP </span>as language.</p>
         <p class="p7 ft3"><span class="ft16">▪</span><span class="ft17">Contribute to </span><span class="ft7">Drupal.org </span>community by creating a patch for the module (Fancyselect).</p>
@@ -155,7 +158,7 @@ class App extends Component {
             </td>
           </tr>
         </table>
-        <p class="p5 ft5"><span class="ft4">S</span>trENGTHS</p>
+        <p class="p5 ft5"><span class="ft4">S</span>TRENGTHS</p>
         <p class="p4 ft10"><span class="ft8">•</span><span class="ft9">Familiar with working in an </span><span class="ft4">Agile </span>environment with <span class="ft4">Scrum </span>Model.</p>
         <p class="p13 ft10"><span class="ft8">•</span><span class="ft9">Good in </span><span class="ft4">Designing </span>and <span class="ft4">Developing </span>responsive websites.</p>
         <p class="p4 ft10"><span class="ft8">•</span><span class="ft9">Strong working ability in </span><span class="ft4">JavaScript </span>and <span class="ft4">Java.</span></p>
@@ -166,7 +169,7 @@ class App extends Component {
         <p class="p4 ft25"><span class="ft8">•</span><span class="ft24">Languages: English and Hindi</span></p>
         <p class="p4 ft10"><span class="ft8">•</span><span class="ft9">Nationality: Indian</span></p>
         <p class="p16 ft5"><span class="ft4">S</span>OCIAL <span class="ft4">P</span>ROFILES</p>
-        <p class="p17 ft12"><span class="ft4">G</span><span class="ft5">ITHUB</span><span class="ft10">: </span><a href="https://github.com/dgr8akki"><span class="ft11">https://github.com/dgr8akki</span></a><span><span class="ft4">L</span><span class="ft5">INKEDIN</span><span class="ft10">: </span><a href="https://www.linkedin.com/in/dgr8akki/"><span class="ft11">https://www.linkedin.com/in/dgr8akki/</span></a></span></p>
+        <p class="p17"><span class="ft4">G</span><span class="ft5">ITHUB</span><span class="ft10">: </span><a href="https://github.com/dgr8akki"><span class="ft11">https://github.com/dgr8akki</span></a><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ft4">L</span><span class="ft5">INKEDIN</span><span class="ft10">: </span><a href="https://www.linkedin.com/in/dgr8akki/"><span class="ft11">https://www.linkedin.com/in/dgr8akki/</span></a></span></p>
       </div>
     </div>
     );
