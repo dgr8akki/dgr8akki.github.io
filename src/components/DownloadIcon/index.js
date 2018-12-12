@@ -1,10 +1,10 @@
 import React from 'react';
 import './Style.css';
-import icon from "./icon.png";
+import icon from './icon.png';
 import AakashPahujaResume from './AakashPahujaResume.pdf';
 
 const DownloadIcon = () => (
-  <div class="iconWrapper">
+  <div className="iconWrapper">
     <a href={AakashPahujaResume} download>
       <img
         alt="icon"

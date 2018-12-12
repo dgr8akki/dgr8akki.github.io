@@ -1,31 +1,11 @@
-import React from "react";
-import "./Style.css";
+import React from 'react';
+import './Style.css';
+import './App.css';
+import HeaderSection from './HeaderSection';
 
 const Resume = () => (
   <div id="page_1">
-    <div id="tx1">
-      <span className="ft2">(+91) </span>
-      <nobr>
-        <span className="ft2">799-592-4034</span>
-      </nobr>
-      <span className="ft0"> </span>
-      <span className="ft2">pahujaaakash5@gmail.com</span>
-    </div>
-    <div id="id1_1">
-      <div id="id1_1_1">
-        <p className="p0 ft2">
-          <nobr>Hi-Tech</nobr>
-          City
-        </p>
-        <p className="p1 ft3">Hyderabad, TS</p>
-      </div>
-      <div id="id1_1_2">
-        <p className="p0 font-small">
-          <span className="font-head">A</span> A K A S H
-          <span className="font-head">&nbsp;&nbsp;P</span> A H U J A
-        </p>
-      </div>
-    </div>
+    <HeaderSection />
     <div id="id1_2">
       <p className="p2 ft5 heading">
         <span className="ft4">E</span>
@@ -92,7 +72,9 @@ const Resume = () => (
       </p>
       <p className="p5 ft5 heading">
         <span className="ft4">W</span>
-        ORK <span className="ft4">E</span>
+        ORK
+        {' '}
+        <span className="ft4">E</span>
         XPERIENCE
       </p>
       <table cellPadding={0} cellSpacing={0} className="t3">
@@ -127,9 +109,12 @@ const Resume = () => (
       <p className="p7 ft7">
         <span className="ft16">▪</span>
         <span className="ft9">Develop </span>
-        Marketplace2.0{" "}
+        Marketplace2.0
+        {' '}
         <span className="ft3">with optimized performance and </span>
-        google page insight score <span className="ft3">of </span>
+        google page insight score
+        {' '}
+        <span className="ft3">of </span>
         94.
       </p>
       <p className="p8 ft15">
@@ -149,12 +134,16 @@ const Resume = () => (
       <p className="p9 ft15">
         <span className="ft16">▪</span>
         <span className="ft18">
-          Owned and Orchestrated the complete designing and development of{" "}
+          Owned and Orchestrated the complete designing and development of
+          {' '}
         </span>
         <span className="ft19">Automation Testing Engine</span>
-        in java which provides a dailyreport for{" "}
+        in java which provides a dailyreport for
+        {' '}
         <span className="ft19">Website</span>
-        and <span className="ft19">APIs </span>
+        and
+        {' '}
+        <span className="ft19">APIs </span>
         tests status whichresulted inincreased customerbase and enrich product
         quality.
       </p>
@@ -162,7 +151,9 @@ const Resume = () => (
         <span className="ft16">▪</span>
         <span className="ft17">Develop APIs for marketplace platform in </span>
         <span className="ft7">Drupal </span>
-        in <span className="ft7">PHP </span>
+        in
+        {' '}
+        <span className="ft7">PHP </span>
         as language.
       </p>
       <table cellPadding={0} cellSpacing={0} className="t4">
@@ -222,7 +213,9 @@ const Resume = () => (
         <span className="ft16">▪</span>
         <span className="ft18">Develop APIs for marketplace platform in </span>
         <span className="ft19">Drupal </span>
-        in <span className="ft19">PHP </span>
+        in
+        {' '}
+        <span className="ft19">PHP </span>
         as language.
       </p>
       <p className="p7 ft3">
@@ -253,7 +246,9 @@ const Resume = () => (
         <tr>
           <td className="tr0 td14">
             <p className="p11 ft4">
-              Client Scripting: <span className="ft10">jQuery and React</span>
+              Client Scripting:
+              {' '}
+              <span className="ft10">jQuery and React</span>
             </p>
           </td>
           <td className="tr0 td14">
@@ -267,13 +262,15 @@ const Resume = () => (
           <td className="tr0 td14">
             <p className="p11 ft4">
               <nobr>Server-Side</nobr>
-              Rendering Scripting:{" "}
+              Rendering Scripting:
+              {' '}
               <span className="ft10">Redux and Next.js</span>
             </p>
           </td>
           <td className="tr0 td14">
             <p className="p12 ft4">
-              Build Management Tools:{" "}
+              Build Management Tools:
+              {' '}
               <span className="ft10">Maven, Gulp, Webpack</span>
             </p>
           </td>
@@ -287,14 +284,18 @@ const Resume = () => (
           </td>
           <td className="tr0 td14">
             <p className="p12 ft4">
-              Logging Framework: <span className="ft10">Log4J</span>
+              Logging Framework:
+              {' '}
+              <span className="ft10">Log4J</span>
             </p>
           </td>
         </tr>
         <tr>
           <td className="tr2 td14">
             <p className="p11 ft4">
-              Operating System: <span className="ft10">Windows and Linux</span>
+              Operating System:
+              {' '}
+              <span className="ft10">Windows and Linux</span>
             </p>
           </td>
           <td className="tr2 td14">
@@ -313,26 +314,34 @@ const Resume = () => (
         <span className="ft8">•</span>
         <span className="ft9">Familiar with working in an </span>
         <span className="ft4">Agile </span>
-        environment with <span className="ft4">Scrum </span>
+        environment with
+        {' '}
+        <span className="ft4">Scrum </span>
         Model.
       </p>
       <p className="p13 ft10">
         <span className="ft8">•</span>
         <span className="ft9">Good in </span>
         <span className="ft4">Designing </span>
-        and <span className="ft4">Developing </span>
+        and
+        {' '}
+        <span className="ft4">Developing </span>
         responsive websites.
       </p>
       <p className="p4 ft10">
         <span className="ft8">•</span>
         <span className="ft9">Strong working ability in </span>
         <span className="ft4">JavaScript </span>
-        and <span className="ft4">Java.</span>
+        and
+        {' '}
+        <span className="ft4">Java.</span>
       </p>
       <p className="p4 ft4">
         <span className="ft8">•</span>
         <span className="ft9">Good understanding of </span>
-        Data Structures <span className="ft10">and </span>
+        Data Structures
+        {' '}
+        <span className="ft10">and </span>
         Algorithms.
       </p>
       <p className="p4 ft10">
@@ -341,7 +350,9 @@ const Resume = () => (
       </p>
       <p className="p14 ft5 heading">
         <span className="ft4">P</span>
-        ERSONAL <span className="ft4">D</span>
+        ERSONAL
+        {' '}
+        <span className="ft4">D</span>
         ETAILS
       </p>
       <p className="p15 ft10">
@@ -360,7 +371,9 @@ const Resume = () => (
       </p>
       <p className="p16 ft5 heading">
         <span className="ft4">S</span>
-        OCIAL <span className="ft4">P</span>
+        OCIAL
+        {' '}
+        <span className="ft4">P</span>
         ROFILES
       </p>
       <p className="p17">
