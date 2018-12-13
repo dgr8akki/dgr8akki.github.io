@@ -1,27 +1,33 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import style from './SocialProfileSection.module.scss';
 import SectionHeading from '../SectionHeading';
+import data from './data';
 
 const SocialProfileSection = ({ className }) => (
   <div className={className}>
     <SectionHeading heading="social profiles" />
-    <p className="p17">
-      <span className="ft4">G</span>
-      <span className="ft5">ITHUB</span>
-      <span className="ft10">: </span>
-      <a href="https://github.com/dgr8akki">
-        <span className="ft11">https://github.com/dgr8akki</span>
-      </a>
-      <span>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <span className="ft4">L</span>
-        <span className="ft5">INKEDIN</span>
-        <span className="ft10">: </span>
-        <a href="https://www.linkedin.com/in/dgr8akki/">
-          <span className="ft11">https://www.linkedin.com/in/dgr8akki/</span>
-        </a>
-      </span>
-    </p>
+    <div className="p17">
+      {
+        data.map(
+          (socialProfile) => {
+            const { url } = socialProfile;
+            let { title } = socialProfile;
+            title = title.toUpperCase();
+            return (
+              <div className={style.headingWrapper}>
+                <span>
+                  <span className={style.heading}>
+                    {title.substr(0, 1)}
+                  </span>
+                  {`${title.substr(1, socialProfile.title.length - 1)} : `}
+                </span>
+                <a href={url} className={`${style.heading} ${style.link}`}>{url}</a>
+              </div>
+            );
+          },
+        )
+      }
+    </div>
   </div>
 );
 
