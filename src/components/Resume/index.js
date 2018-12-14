@@ -1,6 +1,4 @@
 import React from 'react';
-import './Style.css';
-import './App.css';
 import HeaderSection from './HeaderSection';
 import EducationSection from './EducationSection';
 import ExperienceSection from './ExperienceSection';
@@ -11,7 +9,7 @@ import SocialProfileSection from './SocialProfileSection';
 import style from './Resume.module.scss';
 
 const Resume = () => (
-  <div>
+  <div className={style.root}>
     <HeaderSection className={style.section} />
     <EducationSection className={style.section} />
     <ExperienceSection className={style.section} />

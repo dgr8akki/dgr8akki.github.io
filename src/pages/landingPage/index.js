@@ -1,17 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Resume from '../../components/Resume';
-import DownloadIcon from '../../components/DownloadIcon';
 
-class LandingPage extends Component {
-  render() {
-    return (
-      <div>
-        <Resume />
-        <DownloadIcon />
-      </div>
-    );
-  }
-}
+const LandingPage = () => (<Resume />);
 
 LandingPage.propTypes = {
 };

@@ -1,12 +1,12 @@
 {
   "Languages" : "JavaScript and Java",
-  "Front End" : "Indian",
-  "Client Scripting" : "JavaScript and Java",
-  "Responsive Design" : "Indian",
-  "Server-SideRendering Scripting" : "JavaScript and Java",
-  "Build Management Tools" : "Indian",
-  "CI Tools" : "JavaScript and Java",
-  "Logging Framework" : "Indian",
-  "Operating System" : "JavaScript and Java",
-  "Testing Framework" : "Indian"
+  "Front End" : "HTML 5, CSS 3, SASS, SCSS",
+  "Client Scripting" : "JQuery and React",
+  "Responsive Design" : "Bootstrap, CSS Grid and Flexbox",
+  "Server-SideRendering Scripting" : "Redux and Next.js",
+  "Build Management Tools" : "Maven, Gulp, Webpack",
+  "CI Tools" : "Jenkins and Travis CI",
+  "Logging Framework" : "Log4J",
+  "Operating System" : "Windows and Linux",
+  "Testing Framework" : "TestNg, Rest Assured, Selenium"
 }

@@ -1,0 +1,27 @@
+[
+  {
+    "position":"Software Development Engineer",
+    "company":"KONY INDIA PVT. LTD, HYDERABAD",
+    "duration":"Aug 2017 – Now",
+    "info":"Worked on Kony Marketplace Platform (https://marketplace.kony.com).",
+    "responsibilities":[
+      "Develop Marketplace 2.0 with optimized performance and google page insight score of 94.",
+      "Also develop Private marketplace which enables the customers to view and sharecomponents only in their organization with high security",
+      "Design and developed Kony Marketplace Platform for customers and community to showcase their components built inKony Visualizer",
+      "Owned and Orchestrated the complete designing and development of Automation Testing Engine in java which provides a daily report for Website and APIs tests status which resulted in increased customer base and enrich product quality.",
+      "Develop APIs for marketplace platform in Drupal in PHP as language."
+    ]
+  },
+  {
+    "position":"Associate Software Engineer",
+    "company":"KONY INDIA PVT. LTD, HYDERABAD",
+    "duration":"Aug 2016 – Aug 2017",
+    "info":"Worked on Kony Web portals (https://www.kony.com & https://community.kony.com/).",
+    "responsibilities":[
+      "Develop responsiveness to Kony Marketplace platform (https://community.kony.com/marketplace)",
+      "Develop front End of Kony Web portals",
+      "Develop APIs for marketplace platform in Drupal in PHP as language.",
+      "Contribute to Drupal.org community by creating a patch for the module (Fancy select)."
+    ]
+  }
+]
