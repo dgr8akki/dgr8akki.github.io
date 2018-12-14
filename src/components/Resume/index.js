@@ -11,7 +11,7 @@ import SocialProfileSection from './SocialProfileSection';
 import style from './Resume.module.scss';
 
 const Resume = () => (
-  <div id="page_1">
+  <div>
     <HeaderSection className={style.section} />
     <EducationSection className={style.section} />
     <ExperienceSection className={style.section} />

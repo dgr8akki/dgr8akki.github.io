@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import style from './PersonalDetailsSection.module.scss';
 import SectionHeading from '../SectionHeading';
 import data from './data.json';
