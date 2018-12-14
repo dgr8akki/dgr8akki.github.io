@@ -1,4 +1,14 @@
-.headerWrapper {
-  display: block;
+.listItem {
+  font-size: 12px;
+  float: left;
+  width: 50%;
 }
 
+.list {
+  padding-left: 1%;
+  list-style-type: none;
+}
+
+.listItemHeading {
+  font-weight: bold;
+}
