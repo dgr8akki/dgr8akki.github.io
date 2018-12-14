@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './HeaderSection.module.scss';
+import DownloadIcon from '../../DownloadIcon';
 
 const HeaderSection = ({ className }) => (
   <div className={`${className} ${style.headerWrapper}`}>
@@ -17,6 +18,7 @@ const HeaderSection = ({ className }) => (
       <div>(+91) 799-592-4034</div>
       <div>pahujaaakash5@gmail.com</div>
     </div>
+    <DownloadIcon />
   </div>
 );
 
