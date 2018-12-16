@@ -6,8 +6,9 @@ import data from './data';
 const SkillsSection = ({ className }) => (
   <div className={className}>
     <SectionHeading heading="skills" />
-    <ul className={style.list}>
-      {
+    <div className={style.contentWrapper}>
+      <ul className={style.list}>
+        {
         Object.keys(data).map(key => (
           <li className={style.listItem}>
             <span className={style.listItemHeading}>
@@ -18,7 +19,8 @@ const SkillsSection = ({ className }) => (
             </span>
           </li>))
       }
-    </ul>
+      </ul>
+    </div>
   </div>
 );
 

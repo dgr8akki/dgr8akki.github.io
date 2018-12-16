@@ -6,7 +6,7 @@ import data from './data';
 const SocialProfileSection = ({ className }) => (
   <div className={className}>
     <SectionHeading heading="social profiles" />
-    <div className="p17">
+    <div className={style.contentWrapper}>
       {
         data.map(
           (socialProfile) => {

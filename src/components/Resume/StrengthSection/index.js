@@ -6,8 +6,9 @@ import data from './data.json';
 const StrengthSection = ({ className }) => (
   <div className={className}>
     <SectionHeading heading="strengths" />
-    <ul className={style.list}>
-      {
+    <div className={style.contentWrapper}>
+      <ul className={style.list}>
+        {
         data.map(key => (
           <li
             className={style.listItem}
@@ -15,7 +16,8 @@ const StrengthSection = ({ className }) => (
           />
         ))
       }
-    </ul>
+      </ul>
+    </div>
   </div>
 );
 

@@ -6,7 +6,8 @@ import data from './data';
 const ExperienceSection = ({ className }) => (
   <div className={className}>
     <SectionHeading heading="work experience" />
-    {
+    <div className={style.contentWrapper}>
+      {
       data.map(object => (
         <Fragment>
           <div className={style.universityDetails}>
@@ -26,6 +27,7 @@ const ExperienceSection = ({ className }) => (
         </Fragment>
       ))
     }
+    </div>
   </div>
 );
 
