@@ -2,6 +2,10 @@ on:
   push:
     branches:
       - develop
+  pull:
+    branches:
+      - develop
+
 name: Build and deploy - yml Version
 jobs:
   Deployment:
