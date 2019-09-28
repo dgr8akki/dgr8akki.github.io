@@ -1,5 +1,5 @@
 on: push
-name: Build and deploy
+name: Build and deploy - yml Version
 jobs:
   filterMaster:
     name: Filter Master
