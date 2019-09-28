@@ -9,8 +9,8 @@ jobs:
     name: Deployment
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
     - name: Checkout to develop
+      uses: actions/checkout@master
       with:
         ref: develop
     - name: Npm install
