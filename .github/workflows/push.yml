@@ -2,16 +2,17 @@ on:
   push:
     branches:
       - develop
-  pull:
-    branches:
-      - develop
 
 name: Build and deploy - yml Version
 jobs:
   Deployment:
-    name: Filter Master
+    name: Deployment
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout to develop
+    - uses: actions/checkout@master
+      with:
+        ref: develop
     - name: Npm install
       run: |
         npm install
