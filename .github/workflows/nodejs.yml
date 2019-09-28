@@ -24,4 +24,8 @@ jobs:
     - name: Deploy
       uses: dgr8akki/github-action-gh-pages@master
       env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PUBLIC_PATH: ${{ secrets.PUBLIC_PATH }}
+        PUSH_BRANCH: ${{ secrets.PUSH_BRANCH }}
+      env:
         CI: true
