@@ -3,19 +3,19 @@ workflow "Build and deploy" {
   resolves = ["Deploy"]
 }
 
-action "Filter Master" {
-  uses = "actions/bin/filter@b2bea07"
-  args = "branch master"
+action "Fetch Develop" {
+  uses = "actions/bin/filter@master"
+  args = "branch develop"
 }
 
 action "Npm install" {
-  uses = "actions/npm@e7aaefe"
+  uses = "actions/npm@master"
   args = "install"
-  needs = ["Filter Master"]
+  needs = ["Fetch Develop"]
 }
 
 action "Npm build" {
-  uses = "actions/npm@e7aaefe"
+  uses = "actions/npm@emaster"
   args = "run build"
   needs = ["Npm install"]
 }
