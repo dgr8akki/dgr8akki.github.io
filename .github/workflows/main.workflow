@@ -24,6 +24,8 @@ action "Deploy" {
   uses = "dgr8akki/github-action-gh-pages@master"
   secrets = [
     "GITHUB_TOKEN",
+    "PUSH_BRANCH",
+    "PUBLIC_PATH"
   ]
   needs = ["Npm build"]
 }
