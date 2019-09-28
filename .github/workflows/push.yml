@@ -1,23 +1,20 @@
 on: push
 name: Build and deploy - yml Version
 jobs:
-  filterMaster:
+  Deployment:
     name: Filter Master
     runs-on: ubuntu-latest
+    on:
+      push:
+        branches:
+          - develop
     steps:
-    - uses: actions/checkout@master
-    - name: Filter Master
-      uses: actions/bin/filter@b2bea07
-      with:
-        args: branch master
     - name: Npm install
-      uses: actions/npm@e7aaefe
-      with:
-        args: install
+      run: |
+        npm install
     - name: Npm build
-      uses: actions/npm@e7aaefe
-      with:
-        args: run build
+      run: |
+        npm run build
     - name: Deploy
       uses: dgr8akki/github-action-gh-pages@master
       env:
