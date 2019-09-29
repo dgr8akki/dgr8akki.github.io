@@ -1,10 +1,11 @@
 language: node_js
 node_js:
-- node
-sudo: false
+  - 10
+sudo: true
 install:
 - npm install
 script:
+- npm run build
 - npm run deploy
 env:
   global:
