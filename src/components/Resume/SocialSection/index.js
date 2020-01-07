@@ -1,10 +1,10 @@
 import React from 'react';
-import style from './SkillsSection.module.scss';
+import style from './SocialSection.module.scss';
 import SectionHeading from '../SectionHeading';
 
-const SkillsSection = ({ className, data }) => (
+const SocialSection = ({ className, data }) => (
   <div className={className}>
-    <SectionHeading heading="skills" />
+    <SectionHeading heading="social profiles" />
     <div className={style.contentWrapper}>
       <ul className={style.list}>
         {
@@ -13,9 +13,15 @@ const SkillsSection = ({ className, data }) => (
             <span className={style.listItemHeading}>
               {`${key} : `}
             </span>
-            <span>
-              {data[key]}
-            </span>
+            <a
+              href={data[key]}
+              target="_blank"
+              className={style.link}
+            >
+              {
+                data[key]
+              }
+            </a>
           </li>))
       }
       </ul>
@@ -23,4 +29,4 @@ const SkillsSection = ({ className, data }) => (
   </div>
 );
 
-export default SkillsSection;
+export default SocialSection;

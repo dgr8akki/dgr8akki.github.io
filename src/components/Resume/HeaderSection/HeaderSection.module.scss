@@ -36,12 +36,17 @@
   font-size: 16px !important;
   font-weight: bold;
   line-height: 1px;
-
-  span:last-child {
-    margin-left: 10px;
-  }
+  letter-spacing: 0.3em;
 }
 
 .contactInfo {
   width: 22%;
+}
+
+.nameLeft {
+  text-transform: uppercase;
+}
+
+.ml10 {
+  margin-left: 10px;
 }

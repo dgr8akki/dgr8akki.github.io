@@ -1,9 +1,8 @@
 import React from 'react';
 import style from './PersonalDetailsSection.module.scss';
 import SectionHeading from '../SectionHeading';
-import data from './data.json';
 
-const PersonalDetailsSection = ({ className }) => (
+const PersonalDetailsSection = ({ className, data}) => (
   <div className={className}>
     <SectionHeading heading="personal details" />
     <div className={style.contentWrapper}>

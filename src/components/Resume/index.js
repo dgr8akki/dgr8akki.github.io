@@ -3,18 +3,32 @@ import HeaderSection from './HeaderSection';
 import EducationSection from './EducationSection';
 import ExperienceSection from './ExperienceSection';
 import SkillsSection from './SkillsSection';
-import StrengthSection from './StrengthSection';
-import SocialProfileSection from './SocialProfileSection';
+import SocialSection from './SocialSection';
 import style from './Resume.module.scss';
+import data from './data';
 
 const Resume = () => (
   <div className={style.root}>
-    <HeaderSection className={style.section} />
-    <EducationSection className={style.section} />
-    <ExperienceSection className={style.section} />
-    <SkillsSection className={style.section} />
-    <StrengthSection className={style.section} />
-    <SocialProfileSection className={style.section} />
+    <HeaderSection
+      className={style.section}
+      data={data.header}
+    />
+    <EducationSection
+      className={style.section}
+      data={data.education}
+    />
+    <ExperienceSection
+      className={style.section}
+      data={data.experience}
+    />
+    <SkillsSection
+      className={style.section}
+      data={data.skills}
+    />
+    <SocialSection
+      className={style.section}
+      data={data.social}
+    />
   </div>
 );
 

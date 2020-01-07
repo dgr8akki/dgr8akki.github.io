@@ -1,9 +1,8 @@
 import React, { Fragment } from 'react';
 import style from './EducationSection.module.scss';
 import SectionHeading from '../SectionHeading';
-import data from './data';
 
-const EducationSection = ({ className }) => (
+const EducationSection = ({ className, data }) => (
   <div className={className}>
     <SectionHeading heading="education" />
     <div className={style.contentWrapper}>
@@ -17,7 +16,7 @@ const EducationSection = ({ className }) => (
           </div>
           <ul className={style.otherInfoList}>
             {
-              object.info.map(detail => <li className={style.otherInfoListItem}>{detail}</li>)
+              object.info.map(detail => <li dangerouslySetInnerHTML={{ __html: detail }} />)
             }
           </ul>
         </Fragment>

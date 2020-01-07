@@ -1,7 +1,8 @@
 import React from 'react';
 import style from './DownloadIcon.module.scss';
 import icon from './icon.png';
-import AakashPahujaResume from './AakashPahujaResume.pdf';
+
+const AakashPahujaResume = 'https://github.com/dgr8akki/my-resume/raw/master/LatestBuild/SinglePage/AakashPahujaResume.pdf';
 
 const DownloadIcon = () => (
   <div className={style.iconWrapper}>

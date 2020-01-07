@@ -1,9 +1,8 @@
 import React from 'react';
 import style from './StrengthSection.module.scss';
 import SectionHeading from '../SectionHeading';
-import data from './data.json';
 
-const StrengthSection = ({ className }) => (
+const StrengthSection = ({ className, data }) => (
   <div className={className}>
     <SectionHeading heading="strengths" />
     <div className={style.contentWrapper}>
