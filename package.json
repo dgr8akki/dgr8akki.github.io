@@ -1,11 +1,11 @@
 {
-  "name": "v4",
+  "name": "portfolio-aakash",
   "description": "Personal Website V4",
   "version": "1.0.0",
   "author": "Aakash Pahuja <aakash.pahuja@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dgr8akki/v4"
+    "url": "https://github.com/dgr8akki/dgr8akki.github.io"
   },
   "keywords": [
     "gatsby"

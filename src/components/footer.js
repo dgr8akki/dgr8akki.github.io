@@ -80,7 +80,7 @@ const Footer = () => {
     if (process.env.NODE_ENV !== 'production') {
       return;
     }
-    fetch('https://api.github.com/repos/dgr8akki/v4')
+    fetch('https://api.github.com/repos/dgr8akki/dgr8akki.github.io')
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;
