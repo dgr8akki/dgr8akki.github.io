@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d29b36d1-abbc-41f7-9cf5-a1284199e13d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/logo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loader.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.develop">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -94,8 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.develop" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.develop" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.serve" />
       </list>
@@ -114,7 +116,7 @@
       <workItem from="1578414427059" duration="1046000" />
       <workItem from="1578465466003" duration="3222000" />
       <workItem from="1578475798334" duration="5748000" />
-      <workItem from="1578562744565" duration="1984000" />
+      <workItem from="1578562744565" duration="6038000" />
     </task>
     <servers />
   </component>
