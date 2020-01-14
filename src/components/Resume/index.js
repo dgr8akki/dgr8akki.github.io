@@ -5,7 +5,7 @@ import ExperienceSection from './ExperienceSection';
 import SkillsSection from './SkillsSection';
 import SocialSection from './SocialSection';
 import style from './Resume.module.scss';
-import data from './data';
+import data from '../../../content/data';
 
 const Resume = () => (
   <div className={style.root}>
