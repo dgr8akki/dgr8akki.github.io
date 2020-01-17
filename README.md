@@ -1,3 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8e088d83-91da-467b-90b5-bcdc87ac8ddf/deploy-status)](https://app.netlify.com/sites/mystifying-heyrovsky-c7b1fb/deploys)
+# Personal Portfolio
 
-Running live at aakashpahuja.live
+Running live at [dgr8akki.github.io](https://dgr8akki.github.io).
